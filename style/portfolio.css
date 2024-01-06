@@ -125,6 +125,15 @@ main {
   color: var(--Dark-02, #484848);
   font-size: 15px;
   /* font-weight: 700; */
-  font-weight: bold;
+  font-weight: bold ;
   line-height: 30px; /* 150% */
+}
+
+/* what i do styles  */
+#what-i-do-discription{
+    padding: 30px 157px 50px;
+
+}
+.skills-container{
+    display: flex;
 }
