@@ -100,6 +100,9 @@ main {
   max-width: 1140px;
   margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* about section stylea */
 .about {
@@ -136,4 +139,17 @@ main {
 }
 .skills-container{
     display: flex;
+    column-gap: 24px;
+}
+.skill{
+   
+    padding: 30px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+.skill-discription{
+    color:  #757575;
 }
