@@ -52,14 +52,15 @@ nav a {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+
 }
 
 /* header realeted styles */
 .header {
   background-color: #fff8f3;
-  background-image: url("../image/header_bg.png");
+  background-image: url("../image/header_bg.png") , url('/image/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right , top left;
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -78,6 +79,7 @@ nav a {
   font-size: 45px;
   color: #474747;
   margin-bottom: 0px;
+
 }
 .banner-title {
   font-size: 85px;
